@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+
 body{
 	background-color: black;
 }
@@ -29,30 +32,376 @@ nav img {
 	width: 50px;
 }
 
-}
+
 .boton-flex{
 	display: flex;
-	flex-direction: column;
-	align-items: center;
 	justify-content: center;
+	/*align-content: center;*/
 	
 }
 .but-buy{
 	margin-top: 70px;
+	margin-bottom: 70px;
 	width: 500px;
 	height: 70px;
 	background-color: rgb(246, 162, 15);
 	text-align: center;
 	border-radius: 10px;
+	font-family: Aboreto;
+	font-size: 50px;
+	border: 1px white solid;
+}
+.slogan_1{
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
 }
 #slogan{
-	margin-top: 100px;
-	font-size: 90px;
+	font-size: 80px;
 	color: rgb(246, 162, 15);
+	margin-bottom: 50px;
+	font-family: Aboreto;
 }
+.botones23{
+	display: flex;
+	justify-content: center;
+}
+.botones2{
+	display:grid;
+	width: 50%;
+	height: 50%;
+	grid-template-columns: repeat(2, 1fr) ;
+	grid-template-rows: repeat(2, 1fr);
+	column-gap: 50px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.seenow{
+	grid-area: 1 / 1 / 2 / 2 ;
+	background-color: rgb(246, 162, 15);
+	width: 500px;
+	height: 80px;
+	border-radius: 10px;
+	font-family: Aboreto;
+	font-size: 50px;
+	border: 1px white solid;
+}
+.coctel_1{
+	grid-area: 2 / 1 / 3 / 2;
+	border: 2px white solid;
+	border-radius: 10px;
+}
+.products{
+	grid-area: 1 / 2 / 2 / 3;
+	background-color: rgb(246, 162, 15);
+	width: 500px;
+	height: 80px;
+	border-radius: 10px;
+	font-family: Aboreto;
+	font-size: 50px;
+	border: 1px white solid;
+}
+.coctel_2{
+	grid-area: 2 / 2 / 3 / 3;
+	border: 2px white solid;
+	border-radius: 10px;
+}
+.a2ndpage{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.a2ndpage_pro{
+	font-size: 80px;
+	color: rgb(246, 162, 15);
+	margin-bottom: 50px;
+	font-family: Aboreto;
+}
+.productos2nd{
+	display: grid;
+	width: 50%;
+	height: 50%;
+	grid-template-columns: repeat(2, 1fr) ;
+	grid-template-rows: repeat(3, 1fr);
+	column-gap: 50px;
+	row-gap: 50px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	align-content: center;
+	margin-left: 100px;
+	
+}
+/*.img_product_1{
+	grid-area: 1 / 1 / 2 / 2;
+}*/
+/*.product_1{
+	grid-area: 1 / 2 / 2 / 3;
+}
+.img_product_2{
+	grid-area: 2 / 2 / 3 / 3 ;
+}
+.product_2{
+	grid-area: 2 / 1 / 3 / 2 ;
+}
+.img_product_3{
+	grid-area: 3 / 1 / 4 / 2 ;
+}
+.product_3{
+	grid-area: 3 / 2 / 4 / 3 ;
+}
+.img_product_4{
+	grid-area: 4 / 2 / 5 / 3 ;
+}
+.product_4{
+	grid-area: 4 / 2 / 5 / 3 ;
+}
+.img_product_5{
+	grid-area: 5 / 1 / 6 / 2 ;
+}
+.product_5{
+	grid-area: 5 / 1 / 6 / 2 ;
+}
+.img_product_6{
+	grid-area: 6 / 2 / 7 / 3 ;
+}
+.product_6{
+	grid-area: 6 / 2 / 7 / 3;
+}*/
+.margarita{
+	grid-area: 1 / 1 / 2 / 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mojito{
+	grid-area: 2 / 2 / 3 / 3 ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.gin_tonic{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.capri{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.manha{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.piña {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.products-sm{
+	background-color: rgb(246, 162, 15);
+	width: 300px;
+	height: 70px;
+	border-radius: 10px;
+	font-family: Aboreto;
+	font-size: 15px;
+	border: 1px white solid;
+}
+.imgproduct{
+	border: 2px white solid;
+	border-radius: 10px;
+	width: 500px;
+	height: 750px;
+}
+.where{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#where-1{
+	font-size: 60px;
+	color: rgb(246, 162, 15);
+	margin-bottom: 50px;
+	margin-top: 50px;
+	font-family: Aboreto;
+}
+.direccion{
+	display: grid ;
+	display:grid;
+	width: 50%;
+	height: 50%;
+	grid-template-columns: repeat(1, 1fr) ;
+	grid-template-rows: repeat(4, 1fr);
+	row-gap: 30px;
+}
+.direction{
+	grid-area: 1 / 1 / 2 / 1 ;
+	margin-left: 30px;
+	width: 500px;
+	height: 40px;
+	font-family: Aboreto;
+	background-color: black;
+	color: white;
+	border: 3px rgb(246, 162, 15) solid;
+}
+.phone{
+	grid-area: 2 / 1 / 3 / 1;
+	margin-left: 30px;
+	width: 500px;
+	height: 40px;
+	font-family: Aboreto;
+	background-color: black;
+	color: white;
+	border: 3px rgb(246, 162, 15) solid;
+}
+.colony{
+	grid-area: 3 / 1 / 4 / 1;
+	margin-left: 30px;
+	width: 500px;
+	height: 40px;
+	font-family: Aboreto;
+	background-color: black;
+	color: white;
+	border: 3px rgb(246, 162, 15) solid;
+}
+.cp{
+	grid-area: 4 / 1 / 5 / 1;
+	margin-left: 30px;
+	width: 500px;
+	height: 40px;
+	font-family: Aboreto;
+	background-color: black;
+	color: white;
+	border: 3px rgb(246, 162, 15) solid;
+}
+.form{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+.aditional{
+	width: 500px;
+	height: 40px;
+	font-family: Aboreto;
+	background-color: black;
+	color: white;
+	border: 3px rgb(246, 162, 15) solid;
+}
+.enter{
+	background-color: rgb(246, 162, 15);
+	width: 300px;
+	height: 70px;
+	border-radius: 10px;
+	font-family: Aboreto;
+	font-size: 15px;
+	border: 2px white solid;
+}
+.aditional1{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+.muther{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.muther_1{
+	font-size: 60px;
+	color: rgb(246, 162, 15);
+	margin-bottom: 50px;
+	margin-top: 50px;
+	font-family: Aboreto;
+}
+.loca{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.smb{
+	font-family: Aboreto;
+	color: rgb(246, 162, 15);
+	font-size: 25px;
+	background-color: black;
+}
+.total{
+	font-family: Aboreto;
+	color: rgb(246, 162, 15);
+	font-size: 30px;
+}
+.last{
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.nec{
+	width: 500px;
+	height: 40px;
+	font-family: Aboreto;
+	background-color: black;
+	color: white;
+	border: 3px rgb(246, 162, 15) solid;
+}
+.odio{
+	margin-right: 50px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+#chone{
+	font-size: 40px;
+	color: rgb(246, 162, 15);
+	font-family: Aboreto;
+}
+#enter{
+	background-color: rgb(246, 162, 15);
+	width: 300px;
+	height: 70px;
+	border-radius: 10px;
+	font-family: Aboreto;
+	font-size: 30px;
+	border: 3px white solid;
+}
+.muther2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.muther3{
+	font-size: 40px;
+	color: rgb(246, 162, 15);
+	margin-bottom: 50px;
+	margin-top: 50px;
+	font-family: Aboreto;
+}
+.piolinn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.piolin{
+	border: 8px rgb(246, 162, 15) solid;
+	border-radius: 10px;
 
-
-
-
-
-
+}
+.tai{
+	display: flex;
+	justify-content: flex-end;
+	height: 200px;
+}
+.tou{
+	background-color: rgb(246, 162, 15);
+	width: 300px;
+	height: 70px;
+	border-radius: 10px;
+	font-family: Aboreto;
+	font-size: 30px;
+	border: 3px white solid;
+	margin-right: 30px;
+	margin-top: 40px;
+}
